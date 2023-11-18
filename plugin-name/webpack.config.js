@@ -1,6 +1,6 @@
 const defaults = require('@wordpress/scripts/config/webpack.config');
 
-defaults['entry'] = ['./src/admin/plugin-name-admin.js', './src/public/plugin-name-public.js'];
+defaults['entry'] = ['./admin/src/plugin-name-admin.js', './admin/src/plugin-name-public.js'];
 module.exports = {
   ...defaults,
   externals: {
